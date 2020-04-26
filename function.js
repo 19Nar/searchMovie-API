@@ -1,6 +1,7 @@
 const searchMovie = (e) => {
 
 const movieSearch = movieSearch.value.addEventListener("click", searchMovie);
+const movies = movieDetails.value 
 
     const xmlhttp = new XMLHttpRequest();
     url = "http://www.omdbapi.com/?i=tt3896198&apikey=a70bfdd0&query=<title>"
