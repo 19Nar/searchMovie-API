@@ -1,4 +1,4 @@
-const movieSearch = document.getElementById("movieSearch").value.addEventListener("click", searchMovie);
+const movieSearch = document.getElementById("movieSearch").addEventListener("click", searchMovie);
 
 const searchMovie = (e) => {
 
