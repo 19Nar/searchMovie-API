@@ -1,6 +1,7 @@
+const movieSearch = document.getElementById("movieSearch").value.addEventListener("click", searchMovie);
+
 const searchMovie = (e) => {
 
-const movieSearch = movieSearch.value.addEventListener("click", searchMovie);
 const movies = movieDetails.value 
 
     const xmlhttp = new XMLHttpRequest();
