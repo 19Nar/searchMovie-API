@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("background.jpg");    /* img source https://www.freepik.com/ */
-    background-color: #cccccc;
+    background-color:white;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,7 +10,6 @@ body {
     padding: 0 !important;
     position: absolute;
 }
-
 
 
  
