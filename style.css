@@ -20,8 +20,9 @@ body {
     top: 8px;
     left: 16px;
 }
-
-
+section {
+    display: flex;
+}
 
 
 
