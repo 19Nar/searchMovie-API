@@ -1,7 +1,7 @@
 search.onclick = () => {
     let movieSearch = document.getElementById("movieSearch").value;
     const xmlhttp = new XMLHttpRequest();
-    url = "https://api.themoviedb.org/3/movie/550?api_key=8220540bd48a4deadf3212129d4431c1" ;
+    url = "https://api.themoviedb.org/3/search/movie?api_key=8220540bd48a4deadf3212129d4431c1&query=title" ;
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     movieSearch;
